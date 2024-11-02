@@ -1,0 +1,23 @@
+{
+  "name": "kaiyuan-app-sign",
+  "version": "1.0.0",
+  "repository": "git@github.com:yangwudong/kaiyuan-app-sign.git",
+  "author": "Jack Yang <yangwudong@gmail.com>",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "vercel dev",
+    "deploy": "vercel deploy --prod"
+  },
+  "devDependencies": {
+    "@types/crypto-js": "^4.2.2",
+    "@types/node": "^20.12.3",
+    "@vercel/node": "^3.0.25",
+    "crypto-js": "^4.2.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.3"
+  }
+}
